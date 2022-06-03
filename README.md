@@ -1,16 +1,42 @@
-# Vue 3 + TypeScript + Vite
+# Vite-Vue
+Boilerplate Vue App setup with Icons, TypeScript support, Routing,
+WindiCSS and Vite. Use this boilerplate anytime you need to setup a
+new Vue project and want to avoid all the configuration headaches.
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Included with Vite-Vue
+- WindiCSS
+- Vue Router
+- Vue Icons
+- TypeScript Support
 
-## Recommended IDE Setup
+## How to use
+To get started simply clone the repo replacing \<project_name\> with any
+name you desire:
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+```sh
+$> git clone https://github.com/Bitlatte/vite-vue.git <project_name>
+```
 
-## Type Support For `.vue` Imports in TS
+then cd into the new directory and run the following commands:
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+```sh
+$> npm install
+$> npm run dev
+```
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+Once you have completed those steps you should have a development server
+running on port 3000 on your local machine and you're ready to start
+developing your project!
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+#### Example
+```sh
+$> git clone https://github.com/Bitlatte/vite-vue.git example
+$> cd example
+$> npm install
+$> npm run dev
+```
+
+## TypeScript
+By default this project has TypeScript support. It is best practice to
+use TypeScript since it provides amazing type checking to make sure
+your code is as error free as possible before shipping to production.
