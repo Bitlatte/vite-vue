@@ -6,7 +6,7 @@ new Vue project and want to avoid all the configuration headaches.
 ## Included with Vite-Vue
 - WindiCSS
 - Vue Router
-- Vue Icons
+- Oh Vue Icons
 - TypeScript Support
 
 ## How to use
