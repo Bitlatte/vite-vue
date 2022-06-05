@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "analysis": "windicss-analysis",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -18,6 +19,7 @@
     "vite": "^2.9.9",
     "vite-plugin-windicss": "^1.8.4",
     "vue-tsc": "^0.34.7",
-    "windicss": "^3.5.4"
+    "windicss": "^3.5.4",
+    "windicss-analysis": "^0.3.5"
   }
 }
