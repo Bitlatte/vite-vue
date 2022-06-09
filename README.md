@@ -10,7 +10,7 @@ new Vue project and want to avoid all the configuration headaches.
 - TypeScript Support
 
 ## How to use
-To get started us the @bitlatte/vue npx command:
+To get started use the @bitlatte/vue npx command:
 
 ```sh
 $> npx @bitlatte/vue <project_name>
